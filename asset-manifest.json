@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/freecell/static/css/main.181e0038.chunk.css",
+    "main.js": "/freecell/static/js/main.3375618e.chunk.js",
+    "main.js.map": "/freecell/static/js/main.3375618e.chunk.js.map",
+    "runtime~main.js": "/freecell/static/js/runtime~main.10e4263b.js",
+    "runtime~main.js.map": "/freecell/static/js/runtime~main.10e4263b.js.map",
+    "static/js/2.179f4c70.chunk.js": "/freecell/static/js/2.179f4c70.chunk.js",
+    "static/js/2.179f4c70.chunk.js.map": "/freecell/static/js/2.179f4c70.chunk.js.map",
+    "index.html": "/freecell/index.html",
+    "precache-manifest.82fc3fe3f6e4eabb1cef141ea96f47a9.js": "/freecell/precache-manifest.82fc3fe3f6e4eabb1cef141ea96f47a9.js",
+    "service-worker.js": "/freecell/service-worker.js",
+    "static/css/main.181e0038.chunk.css.map": "/freecell/static/css/main.181e0038.chunk.css.map"
+  }
+}
