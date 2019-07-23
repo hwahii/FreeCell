@@ -1,0 +1,81 @@
+/* Layout */
+.game-container {
+	display: flex;
+	justify-content: center;
+}
+
+.game-box {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	min-width: 1000px;
+	min-height: 719px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.game-box-margin-top {
+	height: 50px;
+}
+
+.game-box-top-row {
+	height: 145px;
+	display: flex;
+	justify-content: center;
+}
+
+.game-box-top-row-side {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 425px;
+}
+
+.game-box-top-row-center {
+	width: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.game-box-top-bottom-margin {
+	height: 30px;
+}
+
+.game-box-bottom-row {
+	height: 525px;
+}
+
+.game-margins {
+	flex-grow: 1;
+}
+
+/* Name and Logo */
+.game-king-img {
+	width: 60px;
+	height: 60px;
+}
+.game-name {
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #222222;
+	font-family: 'Lato, Bold', sans-serif;
+	font-weight: 700;
+}
+
+
+/* Card */
+.empty-slot {
+	width: 91px;
+	height: 141px;
+	border: 2px solid #FCFCFC;
+	border-radius: 5px;
+}
+
+.fill-slot {
+	width: 91px;
+	height: 141px;
+	background-color: #FCFCFC;
+	border: 2px solid #FCFCFC;
+	border-radius: 5px;
+}
