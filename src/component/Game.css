@@ -44,6 +44,8 @@
 
 .game-box-bottom-row {
 	height: 525px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .game-margins {
@@ -78,4 +80,17 @@
 	background-color: #FCFCFC;
 	border: 2px solid #FCFCFC;
 	border-radius: 5px;
+}
+
+.hidden-slot {
+	width: 91px;
+	height: 141px;
+	background-color: #FCFCFC;
+	border: 0.5px solid #BABABA;
+	border-radius: 5px;
+	margin-bottom: -120px;
+}
+.card-size {
+	width: 91px;
+	height: 141px;
 }
