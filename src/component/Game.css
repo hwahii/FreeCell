@@ -75,6 +75,9 @@
 }
 
 .fill-slot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 91px;
 	height: 141px;
 	background-color: #FCFCFC;
@@ -93,4 +96,8 @@
 .card-size {
 	width: 91px;
 	height: 141px;
+}
+.suit-size {
+	width: 35px;
+	height: 35px;
 }

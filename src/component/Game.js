@@ -1,6 +1,10 @@
 import React from 'react';
 import './Game.css';
 import KingHappyImg from '../img/king_happy.png';
+import SImg from '../img/S.png';
+import HImg from '../img/H.png';
+import DImg from '../img/D.png';
+import CImg from '../img/C.png';
 import CardStack from './CardStack';
 
 class Game extends React.Component {
@@ -22,10 +26,10 @@ class Game extends React.Component {
 							<div className="game-name">FREECELL</div>
 						</div>
 						<div className="game-box-top-row-side">
-							<div className="fill-slot"></div>
-							<div className="fill-slot"></div>
-							<div className="fill-slot"></div>
-							<div className="fill-slot"></div>
+							<div className="fill-slot"><img className="suit-size" src={SImg} alt="spade" /></div>
+							<div className="fill-slot"><img className="suit-size" src={HImg} alt="heart" /></div>
+							<div className="fill-slot"><img className="suit-size" src={DImg} alt="diamond" /></div>
+							<div className="fill-slot"><img className="suit-size" src={CImg} alt="club" /></div>
 						</div>
 					</div>
 					<div className="game-box-top-bottom-margin"></div>

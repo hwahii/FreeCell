@@ -16,10 +16,10 @@ class Menu extends React.Component {
 						<div className="menu-text">SCORE: 0</div>
 					</div>
 					<div className="menu-right">
-						<div className="menu-btn">NEW GAME</div>
-						<div className="menu-btn">RESTART</div>
-						<div className="menu-btn">HINT</div>
-						<div className="menu-btn">UNDO</div>
+						<button className="menu-btn">NEW GAME</button>
+						<button className="menu-btn">RESTART</button>
+						<button className="menu-btn">HINT</button>
+						<button className="menu-btn">UNDO</button>
 					</div>
 				</div>
 				<div className="menu-margins" />
